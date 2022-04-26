@@ -6,7 +6,7 @@
 </script>
 
 <template>
-    <NuxtLayout name="restaurants">
+    <NuxtLayout v-if="selected" name="restaurants">
         <div class="row">
             <!-- image -->
             <section class="col">
@@ -40,5 +40,9 @@
                 <p class="lead">{{ selected.content }}</p>
             </section>
         </div>
+    </NuxtLayout>
+
+    <NuxtLayout v-else name="error">
+        <template #title> Restaurant not found! </template>
     </NuxtLayout>
 </template>

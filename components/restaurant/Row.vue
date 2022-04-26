@@ -8,6 +8,10 @@
 <template>
     <tr>
         <th scope="row">{{ rank }}</th>
-        <td>{{ name }}</td>
+        <td>
+            <a :href="`/restaurants/${name}`">
+                {{ name }}
+            </a>
+        </td>
     </tr>
 </template>

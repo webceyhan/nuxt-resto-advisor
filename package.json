@@ -1,5 +1,16 @@
 {
+  "name": "nuxt-resto-advisor",
+  "author": "Evren Ceyhan",
+  "license": "MIT",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webceyhan/nuxt-resto-advisor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/webceyhan/nuxt-resto-advisor/issues"
+  },
+  "homepage": "https://github.com/webceyhan/nuxt-resto-advisor#readme",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",

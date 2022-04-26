@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import data from "../data.json";
+import data from "../../data.json";
 
 const cols = computed(() => {
   return {

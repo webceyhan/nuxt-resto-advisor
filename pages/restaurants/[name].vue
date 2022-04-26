@@ -6,7 +6,7 @@
 </script>
 
 <template>
-    <div>
+    <NuxtLayout name="restaurants">
         <div class="row">
             <!-- image -->
             <section class="col">
@@ -40,5 +40,5 @@
                 <p class="lead">{{ selected.content }}</p>
             </section>
         </div>
-    </div>
+    </NuxtLayout>
 </template>

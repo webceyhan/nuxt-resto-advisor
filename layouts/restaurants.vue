@@ -1,6 +1,6 @@
 <script setup>
     useHead({
-        title: 'RestoAdvisor - Restaurants',
+        titleTemplate: '%s - Restaurants',
     });
 </script>
 

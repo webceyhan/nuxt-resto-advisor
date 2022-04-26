@@ -2,12 +2,9 @@
 import data from "../data.json";
 
 const cols = computed(() => {
-  const count = data.length;
-  const half = Math.floor(count / 2);
-
   return {
-    first: data.slice(0, half),
-    second: data.slice(half, count),
+    first: data.slice(0, 25),
+    second: data.slice(25, 50),
   };
 });
 </script>

@@ -7,8 +7,9 @@
 
 # Nuxt RestoAdvisor Application
 
-This is a first demo project built on Nuxt 3 framework with Vue and Typescript.
-It utilizes components, composables, routing, layouts, meta
+This is a demo project built on Nuxt 3 framework with Vue and Typescript inspired by a Nuxt3-Crash-Course video tutorial.
+
+The purpose of this project is, to demonstrate how to build a server-side-rendered application which utilizes features such as components, composables, routing, layouts, meta tags, and more.
 
 [View Demo](https://webceyhan-nuxt-resto-advisor.herokuapp.com/) |
 [Report Issue](https://github.com/webceyhan/nuxt-resto-advisor/issues) |
@@ -129,3 +130,4 @@ A GitHub Action will automatically deploy the project to Heroku on every push.
 -   [GitHub Actions](https://docs.github.com/en/actions)
     -   [Heroku](https://www.heroku.com)
     -   [heroku-deploy](https://github.com/akhileshns/heroku-deploy@)
+-   [Nuxt 3 Crash Course Video](https://www.youtube.com/watch?v=dZC4T4UiU1c&t=4332s)

@@ -12,6 +12,7 @@
   },
   "homepage": "https://github.com/webceyhan/nuxt-resto-advisor#readme",
   "scripts": {
+    "start": "node .output/server/index.mjs",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",

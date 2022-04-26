@@ -5,7 +5,7 @@
 
  <!-- HEADER ///////////////////////////////////////////////////////////// -->
 
-# RestoAdvisor Application with Nuxt + Vue + Typescript + Bootstrap
+# Nuxt RestoAdvisor Application
 
 This is a first demo project built on Nuxt 3 framework with Vue and Typescript.
 It utilizes components, composables, routing, layouts, meta

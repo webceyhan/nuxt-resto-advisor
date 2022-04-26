@@ -1,5 +1,8 @@
 <script setup lang="ts">
-const { selected } = useRestaurants();
+const route = useRoute();
+const { findByName } = useRestaurants();
+
+const selected = findByName(route.params.name as string);
 </script>
 
 <template>

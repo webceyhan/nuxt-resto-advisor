@@ -19,16 +19,19 @@ const cols = computed(() => {
     };
 });
 
-const selectedName = computed(() => useRoute().params.name as string);
+// todo: fix issue Hydration mismatch!
+// const selectedName = computed(() => useRoute().params.name as string);
 
-const selected = computed(() =>
-    all.value.find((r) => r.name === selectedName.value)
-);
+// const selected = computed(() =>
+//     all.value.find((r) => r.name === selectedName.value)
+// );
+
+const findByName = (name: string) => all.value.find((r) => r.name === name);
 
 export default function () {
     return {
         all,
         cols,
-        selected,
+        findByName,
     };
 }

@@ -1,13 +1,9 @@
 <template>
-    <div>
-        <Navbar />
+    <div class="text-center">
+        <h1 class="display-5">Welcome to RestoAdvisor</h1>
 
-        <main class="container text-center py-5">
-            <h1 class="display-5">Welcome to RestoAdvisor</h1>
-
-            <NuxtLink to="/restaurants" class="btn btn-primary">
-                View Restaurants
-            </NuxtLink>
-        </main>
+        <NuxtLink to="/restaurants" class="btn btn-primary">
+            View Restaurants
+        </NuxtLink>
     </div>
 </template>

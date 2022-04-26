@@ -9,9 +9,9 @@
     <tr>
         <th scope="row">{{ rank }}</th>
         <td>
-            <a :href="`/restaurants/${name}`">
+            <NuxtLink :to="`/restaurants/${name}`">
                 {{ name }}
-            </a>
+            </NuxtLink>
         </td>
     </tr>
 </template>

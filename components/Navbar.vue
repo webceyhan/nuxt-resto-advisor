@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand navbar-dark bg-dark">
         <div class="container">
-            <NuxtLink class="navbar-brand" to="/">RestoAdvisor</NuxtLink>
+            <NavLink class="navbar-brand" to="/">RestoAdvisor</NavLink>
 
             <button
                 class="navbar-toggler"
@@ -15,11 +15,11 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <NuxtLink class="nav-link" to="/">Home </NuxtLink>
+                        <NavLink class="nav-link" to="/">Home </NavLink>
                     </li>
                     <li class="nav-item">
-                        <NuxtLink class="nav-link" to="/restaurants"
-                            >Restaurants</NuxtLink
+                        <NavLink class="nav-link" to="/restaurants"
+                            >Restaurants</NavLink
                         >
                     </li>
                 </ul>
